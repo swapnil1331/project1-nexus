@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #6613d9;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(21, 53, 195, 0.1);
+  }
+  
+  .background-gradient {
+    background: linear-gradient(to bottom right, #ff5f6d, #ffc371);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+ 
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-left: 2px;
+    cursor: pointer; 
+    
+}
+.remember-forgot a{
+    color:#eeeaeade;
+    text-decoration: none; 
+    
+}
+.remember-forgot a:hover{
+    text-decoration: underline
+    
+}
+  
+  .btn {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .input-box {
+    position: relative; /* Ensure the container for the icon is positioned */
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 10px; /* Adjust the position as needed */
+    top: 40%;
+    transform: translateY(-40%);
+    font-size: 20px;
+    color: #140303; /* Adjust the color of the icon */
+  }
+  .error-message {
+    color: red;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  .error {
+    color: red;
+    font-size: 15px;
+  }
+  
+  /* Additional CSS decorations can be added for a visually engaging experience */
+  
